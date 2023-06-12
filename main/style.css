@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  background-color: purple;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: yellow;
+  width: 500px;
+  height: 600px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.container #iprompt {
+  width: 300px;
+}
